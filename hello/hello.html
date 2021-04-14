@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            /* background-color: pink; */
+            position: relative;
+        }
+
+        .title {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            font-weight: bolder;
+            font-size: 11px;
+        }
+
+        .start-life {
+            margin-top: 10px;
+            padding: 0 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+    <script src="./hello.js"></script>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="title">我的插件开发</div>
+
+        <div class="start-life">
+            <div class="sub-title">屏蔽广告</div>
+            <input type="checkbox">
+        </div>
+
+        <button onclick="start()">按钮</button>
+
+    </div>
+
+    
+
+
+</body>
+
+</html>
